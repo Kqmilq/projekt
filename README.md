@@ -9,7 +9,7 @@ Pliki w języku c dzielim na dwie główne grupy zależne od ich dostępu do dan
 - Pliki o dostępie swobodnym - W przypadku takiego pliku informacje można odczytywać i zapisywać w dowolnie wybranych miejscach.
 
 ### Pliki o dostępie sekwencyjnym
-Dane z takiego pliku należy odczytywać w takiej kolejności, w jakiej zostały zapisane.
+ Dane z takiego pliku należy odczytywać w takiej kolejności, w jakiej zostały zapisane.
 
 Z plikiem o dostępie sekwencyjnym robi się tylko trzy rzeczy:
 - Tworzy się go
