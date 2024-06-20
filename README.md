@@ -44,3 +44,5 @@ Inne funkcje podstawowe używane do operacji na plikach.
  - fseek() - Ustawia pozycję wskaźnika pliku.
  - fputc() -
  - fscanf() - Odczytuje sformatowane dane z pliku.
+## Podstawy operacji na plikach w języku c++
+
