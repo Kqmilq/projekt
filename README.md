@@ -21,7 +21,7 @@ Z plikiem o dostępie sekwencyjnym robi się tylko trzy rzeczy:
 
 Aby zacząć operacje na plikach trzeba urzyć FILE *fptr.
 
-By w ogóle można było coś zrobić w plikach trzeba użyć fopen() żeby otworzyć plik na kturym chcemy operować.
+By w ogóle można było coś zrobić w plikach trzeba użyć fopen() żeby otworzyć plik na kturym chcemy operować. Nie wolno używać pliku, jeśli funkcja fopen() zgłosi błąd (poprzez zwrócenie zera).
 
  Podstawowe tryby otwarcia pliku funkcji fopen():
  - dla dostępu sekwecyjnego:
@@ -37,4 +37,10 @@ By w ogóle można było coś zrobić w plikach trzeba użyć fopen() żeby otwo
 Gdy już skończymy operacje na plikach używamy fclose() żeby zamknąć plik.
 
 Inne funkcje podstawowe używane do operacji na plikach.
-
+ - fprintf() - Służy do zapisywania sformatowanych danych do pliku.
+ - fputs()
+ - fgets() - Służy do odczytywania linii tekstu z pliku.
+ - feof() - Sprawdza, czy osiągnięto koniec pliku.
+ - fseek() - Ustawia pozycję wskaźnika pliku.
+ - fputc() -
+ - fscanf() - Odczytuje sformatowane dane z pliku.
