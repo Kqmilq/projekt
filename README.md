@@ -19,4 +19,22 @@ Z plikiem o dostępie sekwencyjnym robi się tylko trzy rzeczy:
 ### Pliki o dostępie swobodnym  
  W przypadku takiego pliku informacje można odczytywać i zapisywać w dowolnie wybranych miejscach.
 
-Aby zacząć operacje na plikach trzeba utworzyć zmieną 'FILL'
+Aby zacząć operacje na plikach trzeba urzyć FILE *fptr.
+
+By w ogóle można było coś zrobić w plikach trzeba użyć fopen() żeby otworzyć plik na kturym chcemy operować.
+
+ Podstawowe tryby otwarcia pliku funkcji fopen():
+ - dla dostępu sekwecyjnego:
+   - „w” – tryb zapisu, w którym tworzony jest nowy plik
+   - „r” – tryb odczytu istniejącego pliku
+   - „a” – tryb, w którym dane są dodawane na końcu pliku lub tworzony jest nowy plik, jeśli podany plik nie istnieje.
+ - dla dostępu swobodnego:
+   - „r+” – otwiera istniejący plik z możliwością odczytu i zapisu
+   - „w+” – otwiera nowy plik do zapisu i odczytu
+   - „a+” – otwiera plik z możliwością dodawania danych (wskaźnik plikowy wskazuje na koniec tego pliku), ale umożliwia też przejście wstecz oraz odczytanie i zapisanie danych 
+   „po drodze”.
+
+Gdy już skończymy operacje na plikach używamy fclose() żeby zamknąć plik.
+
+Inne funkcje podstawowe używane do operacji na plikach.
+
