@@ -12,6 +12,6 @@ Pliki w języku c dzielim na dwie główne grupy zależne od ich dostępu do dan
 Dane z takiego pliku należy odczytywać w takiej kolejności, w jakiej zostały zapisane.
 
 Z plikiem o dostępie sekwencyjnym robi się tylko trzy rzeczy:
-• Tworzy się go
-• Odczytuje się z niego dane
-• Dodaje się do niego dane
+- Tworzy się go
+- Odczytuje się z niego dane
+- Dodaje się do niego dane
