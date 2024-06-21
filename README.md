@@ -2,6 +2,8 @@
 
 ## Podstawy operacji na plikach w języku c
 
+W języku C do operacji na plikach używamy funkcji z biblioteki <stdio.h>.
+
 Pliki w języku c dzielim na dwie główne grupy zależne od ich dostępu do danych
 
 - Pliki o dostępie sekwencyjnym.
