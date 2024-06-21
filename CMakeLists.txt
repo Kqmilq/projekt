@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.28)
+project(projekt)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(main main.cpp)
+add_executable(new_target operacja_na_plikach_c/otczyt.cpp)
+add_executable(new_target1 operacja_na_plikach_c/zapis.cpp)
+add_executable(new_target2 operacja_na_plikach_c/zmiana.cpp)
+add_executable(new_target3 operacja_na_plikach_c/fprintf.cpp)
+add_executable(new_target4 operacja_na_plikach_c/fputs.cpp)
+add_executable(new_target5 operacja_na_plikach_c/fgets.cpp)
+add_executable(new_target6 operacja_na_plikach_c/fputc.cpp)
+add_executable(new_target7 operacja_na_plikach_c/fscanf.cpp)
+add_executable(new_target8 operacje_na_plikach_c++/out.cpp)
+add_executable(new_target9 operacje_na_plikach_c++/app.cp)
+add_executable(new_target10 operacje_na_plikach_c++/in.cpp)
