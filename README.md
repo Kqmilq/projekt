@@ -48,3 +48,26 @@ Inne funkcje podstawowe używane do operacji na plikach.
  - fscanf() - Odczytuje sformatowane dane z pliku.
 ## Podstawy operacji na plikach w języku c++
 
+Aby rozpocząć prace nad plikami w języku c++ trzeba użyć funkcji z biblioteki <ifstream>.
+
+Żeby otworzyć plik możemy zrobić na trzy sposoby 
+-ifstream (do odczytu).
+-ofstream (do zapisu).  
+-fstream (do odczytu i zapisu).
+
+### Tryby otwarcia plików.
+Podczas otwierania pliku, możemy użyć różnych trybów, takich jak:
+- ios::in – otwieranie pliku do odczytu
+- ios::out – otwieranie pliku do zapisu
+- ios::app – dopisywanie do pliku
+- ios::binary – otwieranie pliku informujący kompilator o operacjach na danych binarnych.
+- ios::ate – otwieranie pliku i ustawienie kursora na końcu.
+- ios::trunc – zawartość pliku jest kasowana.
+
+W języku c++ mamy otpowiednią funkcje ktura umożliwiaja nam opcje sprawdzenia czy otrzymaliśmy dostęp do pliku( good()).
+Sytłacje w kturych nie uzyskamy dostępu do plików są takie jak:
+- plik nie istnieje(ifstream).
+- nie posiadamy otpowiednich uprawnień.
+
+Gdy już zakończymy prace w pliku należy zamknoć plik funkcją close().
+
